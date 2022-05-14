@@ -36,7 +36,8 @@ phases:
   build:
     commands:
        - echo "hello"
-      # - command
+       - cd ..
+       - ls -la
   #post_build:
     #commands:
       # - command
