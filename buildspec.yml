@@ -2,6 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
+      - git rev-parse HEAD
       - echo "$TERRAFORM_VERSION"
       - curl -sSL "https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip" -o terraform.zip
       - unzip terraform.zip -d /usr/local/bin && chmod +x /usr/local/bin/terraform
