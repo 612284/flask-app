@@ -3,11 +3,11 @@ import random
 app = Flask(__name__)
 # list of cat images
 images = [
-"https://i.picsum.photos/id/1/500/500.jpg?hmac=6vo7WkHURh9CWfdf144ASqEaPNcbj2PHJK3UgGH24lM",
-"https://i.picsum.photos/id/165/500/500.jpg?hmac=n0Bj1mlvxokLZkMjvB0SQpeW6P_RocF_AzhVrLQKYGE",
-"https://i.picsum.photos/id/984/500/500.jpg?hmac=pyY7pQAMjNdqpFpf7EGBwLWshfW7o1ql2QIDKdwBNAU",
-"https://i.picsum.photos/id/731/500/500.jpg?hmac=ZTiJtvtdZXLuuNDzZvSa3n4E-6DEBAQe2qTbEE8eZxw",
-"https://i.picsum.photos/id/861/500/500.jpg?hmac=r0X8208-EpZTr3l4mQLjt0EHu3BzUqLpbGeaaK7gdlE"
+"https://fastly.picsum.photos/id/572/500/500.jpg?hmac=fg8DuZ9XdkpT4xivkrIW8N2hhvZK9YeWuKkPOeK0YUw",
+"https://fastly.picsum.photos/id/776/500/500.jpg?hmac=BzjeSNEVzxo-cm-eJ8jBFlPO0spM8y6UY7Pqb4x2iAg",
+"https://fastly.picsum.photos/id/264/500/500.jpg?hmac=xt4rDchpdcQN40lB5-IE2463g2a4mtnY_63LMGwHbn4",
+"https://fastly.picsum.photos/id/890/500/500.jpg?hmac=9SnpkGICHbTS_a36F5oxBOxE7maQW3zFT0_tncJmtyk",
+"https://fastly.picsum.photos/id/548/500/500.jpg?hmac=hG5mMjL2Cwvu5mqzUtMY50I0gphFTm3-PcVYEnyRLGY"
 ]
 @app.route('/')
 def index():
